@@ -33,6 +33,7 @@
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -80,4 +81,11 @@
     height: 100%;
     width: 100%;
     border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    color: #fff;
+    transition: all 0.3s ease;
 }
