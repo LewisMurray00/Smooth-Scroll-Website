@@ -16,3 +16,33 @@
     padding: 30px;
 }
 
+.titleHeading{
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.titleHeading span{
+   background: #ee0979;
+   background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+   background: linear-gradient(to right, #ff6a00, #ee0979);
+   background-size: 100%;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+}
+
+.titleDescription{
+   font-size: 60px;
+   background: #da22ff;
+   background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
+   background: linear-gradient(to right, #8f0eff, #da22ff);
+   background-size: 100%;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+}
